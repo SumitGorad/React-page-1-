@@ -1,0 +1,37 @@
+.App2 {
+  text-align: center;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+.header h1 {
+  font-size: 30px;
+  margin: 0;
+  color: #333;
+  text-align: center;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: #666;
+}
+
+.sub-header span {
+  margin: 0 5px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.office-image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+}

@@ -1,0 +1,68 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  height: 350px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.tax-note {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.plan ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.plan ul li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border-color: black;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
